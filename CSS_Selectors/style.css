@@ -1,0 +1,29 @@
+* Element Selector */
+p {
+    color: gray;
+    }
+
+    /* ID Selector */
+    #main-heading {
+        color: blue;
+        }
+
+        /* Class Selector */
+        .intro {
+            color: green;
+            }
+
+            /* Class Selector */
+            .box {
+                color: brown;
+                }
+
+                /* Group Selector */
+                h1, h2 {
+                    color: purple;
+                    }
+
+                    /* Descendant Selector */
+                    .box a {
+                        color: red;
+                        }
