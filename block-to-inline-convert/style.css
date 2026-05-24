@@ -1,0 +1,30 @@
+nav {
+        /* margin: 10px auto; */
+            background-color: black;
+                padding: 10px;
+
+                }
+
+                ul {
+                    margin: 10px auto;
+                        width: 400px;
+                        }
+
+                        li {
+                            color: white;
+                                display: inline;
+                                    padding: 0px 10px;
+
+                                        list-style-type: none;
+                                        }
+
+                                        a {
+                                            text-decoration: none;
+                                                color: white;
+                                                    border-bottom: 2px solid rgb(0, 136, 255);
+                                                        font-size: larger;
+                                                            font-family: "Poppins", sans-serif;
+                                                                font-weight: 500;
+                                                                    font-style: normal;
+                                                                    }
+}
