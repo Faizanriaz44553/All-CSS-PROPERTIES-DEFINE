@@ -1,0 +1,57 @@
+body {
+        font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+                text-align: center;
+                    margin: 20px;
+                    }
+
+                    h1 {
+                        margin-bottom: 30px;
+                        }
+
+                        .card {
+                             float: left;
+                                 width: 22%;
+                                     margin: 1%;
+                                         padding: 20px;
+                                             box-sizing: border-box;
+                                                 background-color: white;
+                                                     border-radius: 10px;
+                                                         box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+                                                         }
+
+                                                         .card:hover {
+                                                             transform: translateY(-8px);
+                                                             }
+
+                                                             .card h2 {
+                                                                 color: #333;
+                                                                 }
+
+                                                                 .card p {
+                                                                     color: #666;
+                                                                     }
+
+                                                                     button {
+                                                                         background-color: #007bff;
+                                                                             color: white;
+                                                                                 border: none;
+                                                                                     padding: 10px 15px;
+                                                                                         border-radius: 5px;
+                                                                                             cursor: pointer;
+                                                                                             }
+
+                                                                                             button:hover {
+                                                                                                 background-color: #0056b3;
+                                                                                                 }
+
+                                                                                                 .clearfix {
+                                                                                                     clear: both;
+                                                                                                     }
+
+                                                                                                     .next-content {
+                                                                                                         margin-top: 30px;
+                                                                                                             padding: 20px;
+                                                                                                                 background-color: white;
+                                                                                                                     border-radius: 10px;
+                                                                                                                     }
