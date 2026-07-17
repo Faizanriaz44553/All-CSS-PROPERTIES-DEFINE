@@ -1,0 +1,24 @@
+:root {
+    /* Primary Brand Colors */
+    --color-primary-lime: #b9ff66;
+    /* Bright Lime Green */
+    --color-dark-charcoal: #191a23;
+    /* Near Black / Main Text & Buttons */
+
+    /* Background & Surface Colors */
+    --color-bg-white: #ffffff;
+    /* Main Page Background */
+    --color-surface-light: #f3f3f3;
+    /* Light Gray for Cards/Accordions */
+    --color-footer-bg: #191a23;
+    /* Same as dark charcoal */
+
+    /* UI Elements & Borders */
+    --color-border-dark: #191a23;
+    /* Sharp dark borders around cards */
+    --color-text-muted: #292a32;
+    /* Slightly lighter text for paragraphs */
+}
+main {
+    margin-top: 100px;
+}
