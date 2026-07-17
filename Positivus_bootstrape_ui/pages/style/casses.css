@@ -1,0 +1,74 @@
+:root {
+    /* Primary Brand Colors */
+    --color-primary-lime: #b9ff66;
+    /* Bright Lime Green */
+    --color-dark-charcoal: #191a23;
+    /* Near Black / Main Text & Buttons */
+
+    /* Background & Surface Colors */
+    --color-bg-white: #ffffff;
+    /* Main Page Background */
+    --color-surface-light: #f3f3f3;
+    /* Light Gray for Cards/Accordions */
+    --color-footer-bg: #191a23;
+    /* Same as dark charcoal */
+
+    /* UI Elements & Borders */
+    --color-border-dark: #191a23;
+    /* Sharp dark borders around cards */
+    --color-text-muted: #292a32;
+    /* Slightly lighter text for paragraphs */
+}
+
+main {
+    margin-top: 150px;
+}
+
+.cases-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.casses-boxes {
+    width: 31%;
+    min-height: 250px;
+    height: auto;
+    border: none;
+    border-radius: 20px;
+    padding: 40px;
+    background-color: var(--color-dark-charcoal);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.casses-boxes>p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--color-bg-white);
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.casses-boxes>a {
+    color: var(--color-primary-lime);
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+}
+
+.casses-boxes>a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .casses-boxes {
+        width: 100%;
+    }
+}

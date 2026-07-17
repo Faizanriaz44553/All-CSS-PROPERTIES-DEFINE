@@ -95,11 +95,6 @@ body {
   border: none;
 }
 
-/* .curser-img{
-  display : flex;
-  justify-content: center;
-  align-items: center;
-} */
 .curser-img>img {
   width: 200px;
   height: 100px;
@@ -507,10 +502,11 @@ body {
     display: none;
   }
 
-  .sec-form-container{
+  .sec-form-container {
     width: 100%;
     padding: 20px;
   }
+
   .footer {
     padding: 20px 15px;
   }
