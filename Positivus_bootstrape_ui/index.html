@@ -24,12 +24,14 @@
 <body>
     <nav class="navbar navbar-expand-lg position-fixed top-0 start-0 w-100 bg-white text-white p-3 z-3">
         <div class="container-fluid">
-            <a class="navbar-brand" href="/index.html"><img class="logo" src="./assets/Property 1=Default.png"
-                    alt="logo" /></a>
+            <!-- Aap ka Logo -->
+            <a class="navbar-brand" href="/index.html">
+                <img class="logo" src="./assets/Property 1=Default.png" alt="logo" />
+            </a>
+
             <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="offcanvas"
                 data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                <i class="fa-solid fa-bars fs-3"></i>
-            </button>
+                <i class="fa-solid fa-bars fs-3 text-dark"></i>
             </button>
 
             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
@@ -41,29 +43,38 @@
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
 
-
                 <div class="offcanvas-body">
-                    <ul class="navbar-nav justify-content-center gap-4 flex-grow-1 pe-3 align-items-center">
-                        <a href="./pages/about.html" class="text-decoration-none text-dark">
-                            <li>About Us</li>
-                        </a>
-                        <a href="./pages/services.html" class="text-decoration-none text-dark">
-                            <li>Sevices</li>
-                        </a>
-                        <a href="./pages/cases.html" class="text-decoration-none text-dark">
-                            <li>Use cases</li>
-                        </a>
-                        <a href="./pages/pricing.html" class="text-decoration-none text-dark">
-                            <li>Pricing</li>
-                        </a>
-                        <a href="./pages/blog.html" class="text-decoration-none text-dark">
-                            <li>Blog</li>
-                        </a>
+                    <ul class="navbar-nav justify-content-center gap-4 flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a href="./pages/about.html"
+                                class="text-decoration-none text-dark d-block py-2 text-center text-lg-start">About
+                                Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./pages/services.html"
+                                class="text-decoration-none text-dark d-block py-2 text-center text-lg-start">Sevices</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./pages/cases.html"
+                                class="text-decoration-none text-dark d-block py-2 text-center text-lg-start">Use
+                                cases</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./pages/pricing.html"
+                                class="text-decoration-none text-dark d-block py-2 text-center text-lg-start">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./pages/blog.html"
+                                class="text-decoration-none text-dark d-block py-2 text-center text-lg-start">Blog</a>
+                        </li>
                     </ul>
-                    <button class="nav-container-button d-flex align-items-center" type="button" data-bs-toggle="modal"
-                        data-bs-target="#exampleModal">
-                        Request a quote
-                    </button>
+
+                    <div class="text-center">
+                        <button class="nav-container-button d-flex align-items-center mx-auto mx-lg-0" type="button"
+                            data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Request a quote
+                        </button>
+                    </div>
 
                 </div>
             </div>
@@ -358,16 +369,26 @@
                 </a>
             </ul>
             <div class="social-icons">
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.linkedin.com/in/faizan-riaz-773550300/" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/share/1DHAHvyKrm" target="_blank"><i
+                        class="fa-brands fa-facebook-f"></i></a>
                 <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
             </div>
         </div>
         <div class="footer-content-container">
             <div class="footer-contact-container">
                 <h1>Contact Us:</h1>
-                <p>Email:info@gmail.com</p>
-                <p>Phone: +923198490203</p>
+                <p style="color: white;">Email:
+                    <a href="mailto:faizanriaz218@gmail.com"
+                        style="color: white; text-decoration: none;">faizanriaz218@gmail.com</a>
+                </p>
+
+                <p style="color: white;">Phone:
+                    <a href="tel:+923198490203" style="color: white; text-decoration: none;">+923198490203</a>
+                </p>
+
+                <p style="color: white;">Address: gulshan e bahar orangi town karachi</p>
                 <p>Address: gulshan e bahar orangi town karachi</p>
 
             </div>
@@ -378,7 +399,7 @@
         </div>
         <div class="policy-container">
             <p>©2026 Positivus: All rights reserved. </p>
-            <a href="#">Privacy Policy</a>
+            <a href="./pages/policy.html">Privacy Policy</a>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"

@@ -1,0 +1,88 @@
+:root {
+    /* Primary Brand Colors */
+    --color-primary-lime: #b9ff66;
+    /* Bright Lime Green */
+    --color-dark-charcoal: #191a23;
+    /* Near Black / Main Text & Buttons */
+
+    /* Background & Surface Colors */
+    --color-bg-white: #ffffff;
+    /* Main Page Background */
+    --color-surface-light: #f3f3f3;
+    /* Light Gray for Cards/Accordions */
+    --color-footer-bg: #191a23;
+    /* Same as dark charcoal */
+
+    /* UI Elements & Borders */
+    --color-border-dark: #191a23;
+    /* Sharp dark borders around cards */
+    --color-text-muted: #292a32;
+    /* Slightly lighter text for paragraphs */
+}
+main {
+    margin-top: 100px;
+    padding: 50px;
+}
+.blog-input-container{
+    width: 100%;
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.blog-input-container>input{
+    width: 100%;
+    height: 50px;
+    padding-left: 20px;
+    border: 1px solid var(--color-dark-charcoal);
+    border-radius: 10px;
+}
+.blog-input-container>button{
+    padding: 15px 20px;
+    background-color: var(--color-dark-charcoal);
+    border-radius: 10px;
+    border: none;
+    color: var(--color-bg-white);
+}
+.blog-articles-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    /* gap: 20px; */
+    flex: 1;
+    flex-wrap: wrap;
+}
+.blog-boxes{
+    width: 47%;
+    margin-top: 30px;
+    border: 1px solid var(--color-dark-charcoal);
+    border-radius: 40px;
+    border-bottom: 8px solid var(--color-dark-charcoal);
+    overflow: hidden;
+    padding: 30px;
+    transition: 0.5s ease;
+}
+.blog-boxes:hover{
+   transform: translateY(-10px);
+   background-color: var(--color-primary-lime);
+}
+
+.blog-icon-div{
+    display: flex;
+    justify-content: space-between;
+
+}
+.modal-header-extra{
+    background-color: var(--color-primary-lime);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+@media (max-width: 768px) {
+    main{
+        padding: 20px;
+    }
+    .blog-boxes{
+        width: 100%;
+    }
+}

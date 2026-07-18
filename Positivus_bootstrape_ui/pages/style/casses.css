@@ -22,6 +22,7 @@
 
 main {
     margin-top: 150px;
+    padding: 50px;
 }
 
 .cases-container {
@@ -68,6 +69,9 @@ main {
 }
 
 @media (max-width: 768px) {
+    main{
+        padding: 20px;
+    }
     .casses-boxes {
         width: 100%;
     }

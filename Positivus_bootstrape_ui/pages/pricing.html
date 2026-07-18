@@ -24,44 +24,58 @@
 <body>
     <nav class="navbar navbar-expand-lg position-fixed top-0 start-0 w-100 bg-white text-white p-3 z-3">
         <div class="container-fluid">
-            <a class="navbar-brand" href="/index.html"><img class="logo" src="/assets/Property 1=Default.png"
-                    alt="logo" /></a>
+            <!-- Aap ka Logo -->
+            <a class="navbar-brand" href="/index.html">
+                <img class="logo" src="/assets/Property 1=Default.png" alt="logo" />
+            </a>
+
             <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="offcanvas"
                 data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                <i class="fa-solid fa-bars fs-3"></i>
-            </button>
+                <i class="fa-solid fa-bars fs-3 text-dark"></i>
             </button>
 
             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
                 aria-labelledby="offcanvasNavbarLabel">
                 <div class="offcanvas-header">
                     <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-                        <img class="logo" src="./assets/Property 1=Default.png" alt="logo" />
+                        <img class="logo" src="/assets/Property 1=Default.png" alt="logo" />
                     </h5>
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
+
                 <div class="offcanvas-body">
-                    <ul class="navbar-nav justify-content-center gap-4 flex-grow-1 pe-3 align-items-center">
-                        <a href="./about.html" class="text-decoration-none text-dark">
-                            <li>About Us</li>
-                        </a>
-                        <a href="./services.html" class="text-decoration-none text-dark">
-                            <li>Sevices</li>
-                        </a>
-                        <a href="./cases.html" class="text-decoration-none text-dark">
-                            <li>Use cases</li>
-                        </a>
-                        <a href="./pricing.html" class="text-decoration-none text-dark">
-                            <li>Pricing</li>
-                        </a>
-                        <a href="./blog.html" class="text-decoration-none text-dark">
-                            <li>Blog</li>
-                        </a>
+                    <ul class="navbar-nav justify-content-center gap-4 flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a href="./about.html"
+                                class="text-decoration-none text-dark d-block py-2 text-center text-lg-start">About
+                                Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./services.html"
+                                class="text-decoration-none text-dark d-block py-2 text-center text-lg-start">Sevices</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./cases.html"
+                                class="text-decoration-none text-dark d-block py-2 text-center text-lg-start">Use
+                                cases</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./pricing.html"
+                                class="text-decoration-none text-dark d-block py-2 text-center text-lg-start">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./blog.html"
+                                class="text-decoration-none text-dark d-block py-2 text-center text-lg-start">Blog</a>
+                        </li>
                     </ul>
-                    <button class="nav-container-button d-flex align-items-center" type="button" data-bs-toggle="modal"
-                        data-bs-target="#exampleModal">
-                        Request a quote
-                    </button>
+
+                    <div class="text-center">
+                        <button class="nav-container-button d-flex align-items-center mx-auto mx-lg-0" type="button"
+                            data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Request a quote
+                        </button>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -87,51 +101,55 @@
     <main>
         <div class="d-flex justify-content-center w-100 align-items-center text-center" style="min-height: 200px;">
             <div>
-                <h1 class="display-4  fw-medium">Designed for business teams like yours</h1>
+                <h1 class="display-6  fw-bold">Designed for business teams like yours</h1>
                 <br>
-                <p class="fs-5">Here at Positivus we focus on markets where technology, innovation, and capital can
-                    unlock long-term value and drive economic growth.</p>
+                <p class="fs-6">Here at Positivus we focus on markets where technology, innovation, and capital can
+                    unlock <br>long-term value and drive economic growth.</p>
                 <br>
             </div>
         </div>
         <div class="pro-container">
             <div class="pro-boxes">
-                <h2>Starter</h2>
-                <p>Best option for personal use & for your next project</p>
-                <h1>$29</h1>
-                <span>
-/month</span>
-                <p>Individual configuration</p>
-                <p>No setup, or hidden fees</p>
-                <p>Team size: <b>1 developer</b></p>
-                <p>Premium support: <b>6 months</b></p>
-                <p>Free updates: <b>6 months</b></p>
-                <button>Get Started</button>
+                <h2 class="text-center mb-3 fs-4 fw-bold">Starter</h2>
+                <p class="text-center mb-3">Best option for personal use & for your next project</p>
+                <div class="text-center mb-3">
+                    <h1 class="d-inline display-4 fw-medium">$29</h1>
+                    <span>/month</span>
+                </div>
+                <p class="mb-3"> <i class="fa-solid fa-check"></i> Individual configuration</p>
+                <p class="mb-3"><i class="fa-solid fa-check"></i> No setup, or hidden fees</p>
+                <p class="mb-3"><i class="fa-solid fa-check"></i> Team size: <b>1 developer</b></p>
+                <p class="mb-3"><i class="fa-solid fa-check"></i> Premium support: <b>6 months</b></p>
+                <p class="mb-3"><i class="fa-solid fa-check"></i> Free updates: <b>6 months</b></p>
+                <button onclick="liveAlertBtn2()">Get Started</button>
             </div>
             <div class="pro-boxes">
-                <h2>Company</h2>
-                <p>Relevant for multiple users, extended & premium support</p>
-                <h1>$99</h1>
-                <span>
-/month</span>
-                <p>Individual configuration</p>
-                <p>No setup, or hidden fees</p>
-                <p>Team size: <b>10 developers</b></p>
-                <p>Premium support: <b>24 months</b></p>
-                <p>Free updates: <b>24 months<</b>/p>
-                <button>Get Started</button>
+                <h2 class="text-center mb-3 fs-4 fw-bold">Company</h2>
+                <p class="text-center mb-3">Relevant for multiple users, extended & premium support</p>
+                <div class="text-center mb-3">
+                    <h1 class="d-inline display-4 fw-medium">$99</h1>
+                    <span>/month</span>
+                </div>
+                <p class="mb-3"> <i class="fa-solid fa-check"></i> Individual configuration</p>
+                <p class="mb-3"><i class="fa-solid fa-check"></i> No setup, or hidden fees</p>
+                <p class="mb-3"><i class="fa-solid fa-check"></i> Team size: <b>10 developer</b></p>
+                <p class="mb-3"><i class="fa-solid fa-check"></i> Premium support: <b>24 months</b></p>
+                <p class="mb-3"><i class="fa-solid fa-check"></i> Free updates: <b>24 months</b></p>
+                <button onclick="liveAlertBtn2()">Get Started</button>
             </div>
             <div class="pro-boxes">
-                <h2>Enterprise</h2>
-                <p></p>
-                <h1></h1>
-                <span></span>
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
-                <button></button>
+                <h2 class="text-center mb-3 fs-4 fw-bold">Enterprise</h2>
+                <p class="text-center mb-3">Best for large scale uses and extended redistribution rights</p>
+                <div class="text-center mb-3">
+                    <h1 class="d-inline display-4 fw-medium">$499</h1>
+                    <span>/month</span>
+                </div>
+                <p class="mb-3"> <i class="fa-solid fa-check"></i> Individual configuration</p>
+                <p class="mb-3"><i class="fa-solid fa-check"></i> No setup, or hidden fees</p>
+                <p class="mb-3"><i class="fa-solid fa-check"></i> Team size: <b>100+ developers</b></p>
+                <p class="mb-3"><i class="fa-solid fa-check"></i> Premium support: <b>36 months</b></p>
+                <p class="mb-3"><i class="fa-solid fa-check"></i> Free updates: <b>36 months</b></p>
+                <button onclick="liveAlertBtn2()">Get Started</button>
             </div>
         </div>
     </main>
@@ -157,16 +175,26 @@
                 </a>
             </ul>
             <div class="social-icons">
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.linkedin.com/in/faizan-riaz-773550300/" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/share/1DHAHvyKrm" target="_blank"><i
+                        class="fa-brands fa-facebook-f"></i></a>
                 <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
             </div>
         </div>
         <div class="footer-content-container">
             <div class="footer-contact-container">
                 <h1>Contact Us:</h1>
-                <p>Email:info@gmail.com</p>
-                <p>Phone: +923198490203</p>
+                <p style="color: white;">Email:
+                    <a href="mailto:faizanriaz218@gmail.com"
+                        style="color: white; text-decoration: none;">faizanriaz218@gmail.com</a>
+                </p>
+
+                <p style="color: white;">Phone:
+                    <a href="tel:+923198490203" style="color: white; text-decoration: none;">+923198490203</a>
+                </p>
+
+                <p style="color: white;">Address: gulshan e bahar orangi town karachi</p>
                 <p>Address: gulshan e bahar orangi town karachi</p>
 
             </div>
@@ -177,7 +205,7 @@
         </div>
         <div class="policy-container">
             <p>©2026 Positivus: All rights reserved. </p>
-            <a href="#">Privacy Policy</a>
+            <a href="./policy.html">Privacy Policy</a>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
@@ -190,7 +218,7 @@
             Swal.fire({
                 icon: "error",
                 title: "Oops...",
-                text: "comming soon..."
+                text: "This feature comming soon..."
             });
         }
     </script>
